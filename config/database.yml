@@ -81,7 +81,5 @@ test:
 production:
   <<: *default
   database: on_time_production
-  #username: on_time
-  #password: <%= ENV['ON_TIME_DATABASE_PASSWORD'] %>
-  username: smgn
-  password: paolo19971997
+  username: on_time
+  password: <%= ENV['ON_TIME_DATABASE_PASSWORD'] %>
